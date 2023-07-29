@@ -1,0 +1,237 @@
+*{
+    font-family: "Libre Baskerville", serif;
+}
+header{
+    width: 100%;
+    height: 80vh;
+
+}
+@media only screen and (min-width:600px){
+    header{
+        background-image: url("https://simplychocolatecph.com/cdn/shop/files/Simply_hero_summertable_800x@2x.jpg?v=1683723209");
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:600px){
+    header{
+       background:  rgb(101, 56, 62);
+    }
+}
+
+.navbar-nav a{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.navbar-toggler{
+    background: white;
+}
+.navbar-brand{
+    
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.bgcolor{
+    background-color: #944d4a;
+}
+
+.rotated {
+    
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    color: white;
+    font-weight: 300;
+    
+}
+.rotated h2{
+    margin-top: 5%;
+}
+
+.head-content{
+    color: white;
+}
+.btn{
+    background: white;
+}
+.btn:hover{
+    background: none;
+    color: white;
+    border: 1px solid;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: rgb(101, 56, 62);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    font-size: large;
+    padding: 10px;
+    z-index: 100;
+}
+.show-offer{
+   
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.offer-content{
+    height: 250px;
+    width: 500px;
+    position: relative;
+    display: block;
+    background:rgb(101, 56, 62) ;
+    padding: 10px;
+    color: #dddddd;
+    
+}
+.hide-offer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+}
+.card{
+    background: #dddddd;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+}
+.card-body a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.card-link-icon{
+    border-radius: 20%;
+    border: solid 0.5px;
+}
+.card img{
+    cursor: pointer;
+}
+.second-section{
+    margin: 50px;
+    justify-content: center;
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+.premium-taste{
+    
+    background: #ac605c;
+    color: white;
+    padding: 20px;
+}
+.premium-taste-head{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.premium-taste-img{
+    background: #944d4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.premium-taste-img img{
+    cursor: pointer;
+}
+.premium-taste-img:hover img{
+    transform: scale(1.2);
+}
+.premium-taste-content h3{
+    text-transform: uppercase;
+    
+}
+.premium-taste-content{
+    padding: 25px;
+}
+.gse-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    
+    
+}
+.gse-img img{
+    height: 70vh;
+    width: 40vw;
+}
+
+.gse-content{
+    padding: 10% 5%;
+}
+.gse-button{
+    display: flex;
+    justify-content: center;
+
+}
+.gse-button button{
+    margin-right: 5%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.green-house{
+    display: flex;
+}
+.solar{
+    display: none;
+    
+}
+.environment{
+    display: none;
+}
+.w-100{
+    margin-top: 20px;
+    height: 90vh;
+    width: 90vw;
+}
+.bottom-content{
+    padding: 5%;
+    
+}
+.bottom-content h3{
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 2% 5%;
+}
+footer ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+footer ul li:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+.footer-icon a{
+    cursor: pointer;
+}
+
+.footer-icon a:hover{
+    opacity: 0.5;
+}
+.active{
+    text-decoration: underline;
+    color: blue;
+    
+}
